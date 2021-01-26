@@ -6,4 +6,4 @@ not_on_phone_dir=./not_on_phone
 
 # Download the video
 link=$1
-youtube-dl -x --audio-format "mp3" -o 'not_on_phone/%(title)s.%(ext)s' "$link"
+youtube-dl -x --embed-thumbnail --audio-format "mp3" -o 'not_on_phone/%(title)s.%(ext)s' "$link"
