@@ -21,7 +21,7 @@ fi
 
 # Copy on the phone
 echo "Copying files on phone"
-cp $NOT_ON_PHONE_FILES "$NOKIA_DIRECTORY"
+cp -rv $NOT_ON_PHONE_FILES "$NOKIA_DIRECTORY"
 
 # Move the new musics on the on_phone directory
 echo "Move files to not on phone directory"
